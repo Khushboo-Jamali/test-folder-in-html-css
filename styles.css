@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the navbar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Styling for the dropdown menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Styling for the jumbotron */
+  .jumbotron {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  
+  /* Styling for main content */
+  #content {
+    padding: 20px;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    nav ul li {
+      display: block;
+    }
+  
+    .dropdown {
+      position: static;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: static;
+      width: 100%;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+  
+    * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+    }
+    header {
+      display: flex;
+      background-color: rgba(255, 255, 0, 0.753);
+    }
+
+    header ul li {
+      display: inline;
+      line-height: 80px;
+      margin-left: 100px;
+    }
+    header ul li a {
+      color: black;
+      margin-left: 10px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    header h1 {
+      color: yellow;
+      background-color: black;
+      line-height: 40px;
+    }
+  
+  
